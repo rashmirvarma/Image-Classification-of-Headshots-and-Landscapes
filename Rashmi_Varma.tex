@@ -1,0 +1,28 @@
+\documentclass{article}
+\usepackage{url}
+\usepackage[utf8]{inputenc}
+\usepackage{cite}
+\title{Homework 3}
+\author{Rashmi Varma
+%make sure to specify if the project is Programming or %Technology Driven
+\thanks{CS256 Section 2 Fall 2017: Clustering}}
+\date{\today}
+\begin{document}
+
+\maketitle
+ 
+
+\section{K-means Clustering}
+The accuracy observed for the k-means clustering is between 0.54 and 0.68. Even though we have labelled landscapes and headshots, the classifier is not able to correctly classify all the instances. This is probably because a breakdown of RGB per pixel isn't the most accurate way of image classification. In our clustering, we randomly chose one image from both sets as centers. We then computed distance between RGB and divided the images into two clusters. We repeated this process for every new cluster formed till we had a fairly accurate cluster. 
+
+
+\section{Hierarchical Clustering}
+In our clustering, we observe that we our algorithm is not highly accurate as we have clusters where landscapes and headshots have been clustered together. When split into two, we have one file in one cluster and the rest in the other cluster
+
+\section{Hierarchical Clustering for Flags}
+Here, we observe that flags having similar color intensities and types are clustered together like San Marino and Saint Lucia or Trinidad and Tobago and East Timor.
+
+
+
+
+\end{document}
